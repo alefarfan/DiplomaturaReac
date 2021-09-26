@@ -1,0 +1,37 @@
+body{
+margin: 0;
+background-color:#fff;
+
+
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+p{ 
+    
+    font-family: 'Montserrat','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+h3{
+    font-family: 'Noto Sans JP', cursive ;
+    color: brown;
+    box-sizing: border-box;
+   /* box-shadow:1px 1px 1px 4px;   */
+   text-shadow: 2px 2px 4px darkgrey;
+}
+li{
+    list-style-type:none;
+}
+
+i{
+   font-size: 40px;
+   text-shadow:2px 2px 4px darkgrey;
+}
+
+.inlineb {
+    display: inline-block;
+  
+  }

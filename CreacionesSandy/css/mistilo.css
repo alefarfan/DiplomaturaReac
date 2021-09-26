@@ -1,0 +1,278 @@
+body{
+/*
+Fuentes de letras
+
+font-family: 'Cinzel', serif;
+font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Satisfy', cursive;
+*/
+
+min-width: 639px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    line-height:20px;
+   
+
+}
+
+.right{
+
+    float:right;
+
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+    
+    
+    }
+.card:hover{
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: .25rem;
+    margin-bottom: 3rem;
+
+}
+footer{
+    height: 250px;
+    background-color: darkslategrey;
+    width: 100%;
+border-radius: 10px 10px 1px 1px;
+box-sizing: border-box;
+position: relative;
+font-family: 'Noto Sans JP', cursive ;
+text-align: center;
+}
+.coloresprimarios{
+/* rosa= #f7d6e6  #e685b5  #d63384
+gris= #dee2e6
+*/
+    background-color:#f9f8f6;
+    border:solid #6c757d 0.1px;
+   border-radius: 1px 1px 15px 15px;
+   box-shadow: 2px 1px 10px 1px #6c757d;
+}
+.icon{
+border-radius: 50%;
+box-shadow: 0px 0px 15px 1px #dee2e6;
+
+}
+a{
+
+    /*
+    font-family: 'Cinzel', serif;
+--font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Satisfy', cursive;
+    
+    */
+color: #9da7af;
+font-family: 'Courgette', cursive;
+font-size: 1.2em;
+
+}
+h5{
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    font-family: 'Noto Sans JP', cursive ;
+    
+}
+h2{
+    font-family: 'Noto Sans JP', cursive ;
+
+}
+.headerban{ 
+    background:url("../img/postres1.jpg")no-repeat 2% 10%;
+    overflow:hidden;
+    box-sizing: border-box;
+    display:block;
+    height:60%;
+    width: 100%;
+    background-color:#f7e8da;
+   border-bottom:solid #8b9196 0.1em;
+    padding:4em;
+}
+.left{
+    border-radius:1em 5% 15% 5%;
+    box-shadow: 2px 1px 5px 1px #6c757d;
+    width: 300px;
+height: 300px
+;
+}
+.imgcont{
+margin: auto;
+
+box-sizing: border-box;
+float:left;
+
+padding: 1px;
+
+}
+.conthist{
+padding: 1em;
+    margin: auto;
+    box-sizing: border-box;
+    width: 50%;
+   
+   color:#dc3545 ;
+    
+}
+.sandy{
+    font-family: 'Satisfy', cursive!important;
+    color:#3a0707!important ;
+    font-size: 1.6em;
+    font-style: italic;
+    background:url(../img/banner2.jpg);
+    border-radius: 1px 5px 5px 1px;
+    box-shadow: 2px 1px 5px 1px #6c757d;
+    padding:10px;
+   
+}
+i{
+    font-size: 1.6em;
+    margin-right: 1em;
+}
+.facebook:hover{
+    color:#1877F2;
+   
+}
+.insta:hover{
+    color:#dc3545;
+   
+}
+.whatsapp:hover{
+    color:#0aa545;
+  
+}
+
+/*----------NOSOTROS-----------*/
+
+.bg-white-25{
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.25)!important;
+   
+}
+.pt8{
+    padding-top: 8px !important;
+}
+.pb0{
+    padding-bottom: 0px !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.nosotros{
+
+    background-color:#f7e8da!important;
+}
+spam{
+
+    font-size: 0.6em!important;
+
+}
+strong{
+    font-size: 0.8em!important;
+}
+.carrito{
+    flex: auto;
+margin: auto;
+    width: 90%;
+    height:300px;
+    box-sizing: border-box;
+    border-radius: 15px;
+border:solid #6c757d 0.08em;
+overflow: hidden;
+padding: 0.5em;
+margin-bottom: 20px;
+align-items: center;
+
+}
+.carrito:hover{
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+.carrito img{
+width: 10%;
+
+height: 200px;
+float: left;
+}
+.detalles{
+    
+width: 85%;
+height: 200px;
+float: right;
+}
+.detalles h4{
+    font-family: 'Satisfy', cursive;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom:0.5em;
+    box-shadow:0 2px  0px 0px rgba(172, 159, 159, 0.4);
+}
+
+.columna{
+
+    margin: 20px auto;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 0.6em;
+
+}
+.columna.left{
+
+    text-align: center;
+    border-right: 0.1px solid gray;
+
+}
+
+
+.formularios input,
+.formularios textarea{
+
+   
+    background-color: #ddd;
+    border-radius: 5px;
+    bottom: 0.1px solid rgb(196, 191, 191);
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 200px;
+    border:0.1em solid #777777;
+}
+.formularios input:hover{
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+  
+}
+
+.formularios input[type="submit"]{
+    background-color: #6da9ed;
+   
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+    border:0.1em solid #6da9ed;
+    
+}
+.formularios input[type="submit"]:hover{
+   
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+    
+}
+.formularios textarea{
+    height: 1em;
+    resize: none;
+}
+.formularios .acciones{
+    text-align: center;
+    
+}
+
